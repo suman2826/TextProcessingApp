@@ -60,4 +60,13 @@ def main():
 				out = raw_text.strip()
 				flag = False
 			else:
-				out = out.strip()
+				out = out.strip
+
+		if c6 in choiceOperations:
+			words = set(stopwords.words('english'))
+			if flag:
+				token = tokens
+				flag = False
+			else:
+				token = tokens1
+			out = [i for i in tokens if not i in words]
