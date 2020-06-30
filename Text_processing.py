@@ -40,3 +40,10 @@ def main():
 				for x in out:
 					if x in punctuations:
 						out = out.replace(x,"")
+
+		if c3 in choiceOperations:
+			if flag:
+				out = raw_text.split()
+				flag = False
+			else:
+				out = out.split()
