@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run Text_Preprocessing_and_Text_Summarizer.py
