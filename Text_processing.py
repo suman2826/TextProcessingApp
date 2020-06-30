@@ -80,3 +80,6 @@ def main():
 				token = tokens1
 			out = [lemmatizer.lemmatize(word,pos='v') for word in token]
 	st.write(out)
+
+if __name__ == '__main__':
+	main()
