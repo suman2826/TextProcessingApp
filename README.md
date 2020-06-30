@@ -1,7 +1,17 @@
 # Text_Preprocessing
-Start up with a chunk of lengthy text, unprocessed single strings and end of with a list of clean tokens that would be useful for further text mining.
+Have a lot of unclean text? Now you don't have to bother about writing code to clean text data every time. Just start the app, throw your unclean texts, choose your filters and let the model handle the rest. 
 
-To run the streamlit app:
+#### Check out the app:  https://text-processing-nltk.herokuapp.com/
+
+
+<b>Install all packages used here</b>
+```
+pip install -r requirements.txt
+```
+
+<b>To run the streamlit app:</b>
+```
 streamlit run Text_processing.py
+```
 
-Check out the app:  https://text-processing-nltk.herokuapp.com/
+
