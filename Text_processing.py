@@ -70,3 +70,13 @@ def main():
 			else:
 				token = tokens1
 			out = [i for i in tokens if not i in words]
+
+		if c7 in choiceOperations:
+			lemmatizer = WordNetLemmatizer()
+			if flag:
+				token = tokens
+				flag = False
+			else:
+				token = tokens1
+			out = [lemmatizer.lemmatize(word,pos='v') for word in token]
+	st.write(out)
