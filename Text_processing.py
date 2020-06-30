@@ -54,3 +54,10 @@ def main():
 				flag = False
 			else:
 				out = re.sub(r'\d+','',out)
+
+		if c5 in choiceOperations:
+			if flag:
+				out = raw_text.strip()
+				flag = False
+			else:
+				out = out.strip()
