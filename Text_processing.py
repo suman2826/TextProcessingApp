@@ -28,3 +28,15 @@ def main():
 			else:
 				out = out.lower()
 		tokens1 = word_tokenize(out)
+
+		if c2 in choiceOperations:
+			punctuations = '''!()-[]{};:'"\,>./?@#$%^&*_~'''
+			if flag:
+				for x in raw_text:
+					if x in punctuations:
+						out = raw_text.replace(x,"")
+				flag = False
+			else:
+				for x in out:
+					if x in punctuations:
+						out = out.replace(x,"")
