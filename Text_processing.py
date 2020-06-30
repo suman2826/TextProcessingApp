@@ -47,3 +47,10 @@ def main():
 				flag = False
 			else:
 				out = out.split()
+
+		if c4 in choiceOperations:
+			if flag:
+				out = re.sub(r'\d+','',raw_text)
+				flag = False
+			else:
+				out = re.sub(r'\d+','',out)
