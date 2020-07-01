@@ -1,7 +1,7 @@
 # TextProcessingApp
 Have a lot of unclean text? Now you don't have to bother about writing code to clean text data every time. Just start the app, throw your unclean texts, choose your filters and let the model handle the rest. 
 
-#### Check out the app:  https://text-processing-nltk.herokuapp.com/
+
 
 
 <b>Install all packages used here</b>
